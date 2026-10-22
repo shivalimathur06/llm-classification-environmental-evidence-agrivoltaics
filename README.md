@@ -4,7 +4,7 @@ An independent, exploratory pilot comparing an LLM's classification of environme
 
 ## Research question
 
-Can an LLM distinguish observed, modelled, and proposed environmental outcomes in agrivoltaics research, while recognising cases that involve multiple evidence types or remain unclear?
+Can a large language model (LLM) distinguish between observed, modelled and proposed environmental outcomes in agrivoltaics research?
 
 ## What I did
 
