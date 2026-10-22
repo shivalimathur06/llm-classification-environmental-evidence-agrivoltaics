@@ -1,0 +1,263 @@
+{
+  "primary_original_human_reference": {
+    "reference_column": "human_label",
+    "n": 39,
+    "agreement_count": 34,
+    "agreement_rate": 0.8717948717948718,
+    "expected_agreement": 0.2873109796186719,
+    "cohens_kappa": 0.8201107011070111,
+    "reference_counts": {
+      "observed": 18,
+      "multiple": 3,
+      "modelled": 10,
+      "proposed": 8
+    },
+    "claude_counts": {
+      "observed": 16,
+      "multiple": 3,
+      "modelled": 10,
+      "unclear": 5,
+      "proposed": 5
+    },
+    "confusion_matrix": {
+      "observed": {
+        "observed": 16,
+        "modelled": 0,
+        "proposed": 0,
+        "multiple": 0,
+        "unclear": 2
+      },
+      "modelled": {
+        "observed": 0,
+        "modelled": 10,
+        "proposed": 0,
+        "multiple": 0,
+        "unclear": 0
+      },
+      "proposed": {
+        "observed": 0,
+        "modelled": 0,
+        "proposed": 5,
+        "multiple": 0,
+        "unclear": 3
+      },
+      "multiple": {
+        "observed": 0,
+        "modelled": 0,
+        "proposed": 0,
+        "multiple": 3,
+        "unclear": 0
+      },
+      "unclear": {
+        "observed": 0,
+        "modelled": 0,
+        "proposed": 0,
+        "multiple": 0,
+        "unclear": 0
+      }
+    },
+    "per_label_metrics": [
+      {
+        "label": "observed",
+        "reference_support": 18,
+        "claude_predicted": 16,
+        "precision": 1.0,
+        "recall": 0.8888888888888888,
+        "f1": 0.9411764705882353
+      },
+      {
+        "label": "modelled",
+        "reference_support": 10,
+        "claude_predicted": 10,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "label": "proposed",
+        "reference_support": 8,
+        "claude_predicted": 5,
+        "precision": 1.0,
+        "recall": 0.625,
+        "f1": 0.7692307692307693
+      },
+      {
+        "label": "multiple",
+        "reference_support": 3,
+        "claude_predicted": 3,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "label": "unclear",
+        "reference_support": 0,
+        "claude_predicted": 5,
+        "precision": 0.0,
+        "recall": null,
+        "f1": null
+      }
+    ],
+    "disagreements": [
+      {
+        "batch_id": "B08",
+        "record_id": "2-s2.0-85195192030",
+        "title": "Solar photovoltaic energy development and biodiversity conservation: Current knowledge and research gaps",
+        "human_label": "observed",
+        "claude_new_label": "unclear"
+      },
+      {
+        "batch_id": "B17",
+        "record_id": "2-s2.0-105013085346",
+        "title": "Innovative agrivoltaic systems: integrated solutions for climate resilient habitats; [Sistemi agrivoltaici innovativi: soluzioni integrate per habitat climate resilient]",
+        "human_label": "proposed",
+        "claude_new_label": "unclear"
+      },
+      {
+        "batch_id": "B25",
+        "record_id": "2-s2.0-105012212154",
+        "title": "Synergies and trade-offs of multi-use solar landscapes",
+        "human_label": "proposed",
+        "claude_new_label": "unclear"
+      },
+      {
+        "batch_id": "B36",
+        "record_id": "2-s2.0-85139165363",
+        "title": "Opportunities for agrivoltaic systems to achieve synergistic food-energy-environmental needs and address sustainability goals",
+        "human_label": "proposed",
+        "claude_new_label": "unclear"
+      },
+      {
+        "batch_id": "B37",
+        "record_id": "2-s2.0-85207772231",
+        "title": "Impacts of photovoltaic solar energy on soil carbon: A global systematic review and framework",
+        "human_label": "observed",
+        "claude_new_label": "unclear"
+      }
+    ]
+  },
+  "secondary_provisional_adjudicated_reference": {
+    "reference_column": "new_run_adjudicated_reference_label",
+    "n": 39,
+    "agreement_count": 36,
+    "agreement_rate": 0.9230769230769231,
+    "expected_agreement": 0.27284681130834976,
+    "cohens_kappa": 0.8942133815551537,
+    "reference_counts": {
+      "observed": 16,
+      "multiple": 3,
+      "modelled": 10,
+      "unclear": 2,
+      "proposed": 8
+    },
+    "claude_counts": {
+      "observed": 16,
+      "multiple": 3,
+      "modelled": 10,
+      "unclear": 5,
+      "proposed": 5
+    },
+    "confusion_matrix": {
+      "observed": {
+        "observed": 16,
+        "modelled": 0,
+        "proposed": 0,
+        "multiple": 0,
+        "unclear": 0
+      },
+      "modelled": {
+        "observed": 0,
+        "modelled": 10,
+        "proposed": 0,
+        "multiple": 0,
+        "unclear": 0
+      },
+      "proposed": {
+        "observed": 0,
+        "modelled": 0,
+        "proposed": 5,
+        "multiple": 0,
+        "unclear": 3
+      },
+      "multiple": {
+        "observed": 0,
+        "modelled": 0,
+        "proposed": 0,
+        "multiple": 3,
+        "unclear": 0
+      },
+      "unclear": {
+        "observed": 0,
+        "modelled": 0,
+        "proposed": 0,
+        "multiple": 0,
+        "unclear": 2
+      }
+    },
+    "per_label_metrics": [
+      {
+        "label": "observed",
+        "reference_support": 16,
+        "claude_predicted": 16,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "label": "modelled",
+        "reference_support": 10,
+        "claude_predicted": 10,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "label": "proposed",
+        "reference_support": 8,
+        "claude_predicted": 5,
+        "precision": 1.0,
+        "recall": 0.625,
+        "f1": 0.7692307692307693
+      },
+      {
+        "label": "multiple",
+        "reference_support": 3,
+        "claude_predicted": 3,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "label": "unclear",
+        "reference_support": 2,
+        "claude_predicted": 5,
+        "precision": 0.4,
+        "recall": 1.0,
+        "f1": 0.5714285714285715
+      }
+    ],
+    "disagreements": [
+      {
+        "batch_id": "B17",
+        "record_id": "2-s2.0-105013085346",
+        "title": "Innovative agrivoltaic systems: integrated solutions for climate resilient habitats; [Sistemi agrivoltaici innovativi: soluzioni integrate per habitat climate resilient]",
+        "new_run_adjudicated_reference_label": "proposed",
+        "claude_new_label": "unclear"
+      },
+      {
+        "batch_id": "B25",
+        "record_id": "2-s2.0-105012212154",
+        "title": "Synergies and trade-offs of multi-use solar landscapes",
+        "new_run_adjudicated_reference_label": "proposed",
+        "claude_new_label": "unclear"
+      },
+      {
+        "batch_id": "B36",
+        "record_id": "2-s2.0-85139165363",
+        "title": "Opportunities for agrivoltaic systems to achieve synergistic food-energy-environmental needs and address sustainability goals",
+        "new_run_adjudicated_reference_label": "proposed",
+        "claude_new_label": "unclear"
+      }
+    ]
+  }
+}
