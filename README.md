@@ -1,4 +1,4 @@
-# Agrivoltaics Environmental Evidence Classification Pilot
+# LLM Classification of Environmental Evidence in Agrivoltaics Research
 
 An independent, exploratory pilot comparing an LLM's classification of environmental evidence in agrivoltaics research with manually assigned reference labels. This is a personal learning project; it is not affiliated with or endorsed by the Stockholm Environment Institute (SEI).
 
